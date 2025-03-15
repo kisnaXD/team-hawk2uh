@@ -120,6 +120,7 @@ export default function RoomGrid({ rooms }: { rooms: RoomProps[] }) {
             key={room.id}
             onClick={() => {
               setSelectedRoom(room.id === selectedRoom ? null : room.id)
+              setSelectedContainer(null)
             }}
             className={cn(
               'p-4 rounded-xl bg-white/10 backdrop-blur-sm border border-white/20 transition-colors',
