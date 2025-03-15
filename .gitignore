@@ -136,3 +136,7 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+frontend/.bolt/
+frontend/.next/
+frontend/next-env.d.ts
